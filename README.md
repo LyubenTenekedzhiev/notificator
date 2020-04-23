@@ -1,8 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Notificator is a small project, which gives you information about the expiration time of your messages and offers.
 
-## Available Scripts
+## Instalation
 
-In the project directory, you can run:
+Clone the repository in an empty folder, then navigate to it with your terminal and execute one of the following scripts:
+```terminal
+yarn install 
+          OR
+npm install
+```
 
 ### `yarn start`
 
