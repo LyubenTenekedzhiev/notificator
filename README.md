@@ -13,7 +13,7 @@ npm install
 
 To get your server running, use on of the following commands:
 ```terminal
- yarn start 
+yarn start 
               OR
 npm start     
 ```
