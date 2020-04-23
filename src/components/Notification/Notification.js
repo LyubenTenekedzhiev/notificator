@@ -42,8 +42,8 @@ function Notification({ title, expires, text, id, onFilterNotifications }) {
       {minutes === 0 && seconds === 0 ? (
         <AnimatedVisibility visible={visible} animationOut='fadeOutLeft' animationIn=''>
           <div className={classes.Notification}>
-            <h3>{title}</h3>
-            <h3>{text}</h3>
+            <h3 className={classes.Notification_Title}>{title}</h3>
+            <h3 className={classes.Notification_Description}>{text}</h3>
             {!expires ? (
               <div></div>
             ) : (
@@ -55,8 +55,8 @@ function Notification({ title, expires, text, id, onFilterNotifications }) {
         </AnimatedVisibility>
       ) : (
         <div className={classes.Notification}>
-          <h3>{title}</h3>
-          <h3>{text}</h3>
+          <h3 className={classes.Notification_Title}>{title}</h3>
+          <h3 className={classes.Notification_Description}>{text}</h3>
           {!expires ? (
             <div></div>
           ) : (

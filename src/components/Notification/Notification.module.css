@@ -1,6 +1,7 @@
 .Notification {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 95%;
   margin: 0 auto;
   background-color: white;
@@ -8,4 +9,15 @@
   border-radius: 4px;
   margin-top: 1rem;
   padding: .5rem;
+}
+
+.Notification_Title {
+  width: 15vw;
+  word-break: break-word;
+}
+
+.Notification_Description {
+  /* width: 25vw; */
+  word-break: break-word;
+  font-weight: 400;
 }
