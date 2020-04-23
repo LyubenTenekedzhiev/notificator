@@ -76,8 +76,9 @@
     font-size: 1.5rem;
   }
   .NotificationList_Badge {
-    padding: 4px;
-    font-size: 1rem;
+    width: 3.3%;
+    padding: 2.5px;
+    font-size: .9rem;
   }
 }
 
@@ -93,7 +94,6 @@
   }
   .NotificationList_Badge {
     width: 3%;
-    padding: 3px;
     font-size: 0.75rem;
   }
 }
