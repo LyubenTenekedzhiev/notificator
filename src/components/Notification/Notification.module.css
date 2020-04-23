@@ -17,7 +17,104 @@
 }
 
 .Notification_Description {
-  /* width: 25vw; */
   word-break: break-word;
   font-weight: 400;
 }
+
+
+@media (max-width: 2560px) {
+  .Notification {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+  }
+  .Notification_Title {
+    width: 17vw;
+    font-size: 2rem;
+  }
+  .Notification_Description {
+    font-size: 1.9rem;
+  }
+  .Notification_Time {
+    font-size: 1.9rem;
+  }
+}
+
+@media (max-width: 1800px) {
+  .Notification {
+    margin-top: 1rem;
+    padding: .5rem;
+  }
+  .Notification_Title {
+    width: 15vw;
+    font-size: 1.2rem;
+  }
+  
+  .Notification_Description {
+    font-size: 1.1rem;
+  }
+  .Notification_Time {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .Notification_Title {
+    width: 13vw;
+    font-size: 1rem;
+  }
+  
+  .Notification_Description {
+    font-size: .9rem;
+  }
+  .Notification_Time {
+    font-size: .9rem;
+  }
+}
+
+
+@media (max-width: 750px) {
+  .Notification {
+    margin-top: .75rem;
+    padding: .5rem;
+  }
+  .Notification_Title {
+    width: 15vw;
+    font-size: .8rem;
+  }
+  .Notification_Description {
+    font-size: .7rem;
+  }
+  .Notification_Time {
+    font-size: .7rem;
+  }
+}
+@media (max-width: 500px) {
+  .Notification {
+    margin-top: .7rem;
+  }
+  .Notification_Title {
+    font-size: .6rem;
+  }
+  .Notification_Description {
+    font-size: .55rem;
+  }
+  .Notification_Time {
+    font-size: .55rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .Notification {
+    margin-top: .6rem;
+  }
+  .Notification_Title {
+    font-size: .5rem;
+  }
+  .Notification_Description {
+    font-size: .5rem;
+  }
+  .Notification_Time {
+    font-size: .55rem;
+  }
+}
+

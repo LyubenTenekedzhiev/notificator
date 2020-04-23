@@ -52,3 +52,105 @@
   align-self: center;
   font-size: 1.5rem;
 }
+
+@media (max-width: 2560px) {
+  .NotificationList {
+    width: 60%;
+  }
+  .NotificationList_Count {
+    font-size: 2.5rem;
+  }
+  .NotificationList_Badge {
+    margin: -1.5rem 41% 1rem auto;
+    padding: 4.5px;
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 1800px) {
+  .NotificationList {
+    width: 50%;
+    margin-top: 10rem;
+  }
+  .NotificationList_Count {
+    font-size: 1.5rem;
+  }
+  .NotificationList_Badge {
+    padding: 4px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1450px) {
+  .NotificationList {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .NotificationList {
+    width: 65%;
+  }
+  .NotificationList_Badge {
+    width: 3%;
+    padding: 3px;
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .NotificationList {
+    width: 70%;
+  }
+  .NotificationList_Count {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .NotificationList {
+    width: 75%;
+  }
+  .NotificationList_Badge {
+    width: 3%;
+    padding: 2px;
+    margin: -1.5rem 42% 1rem auto;
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .NotificationList_Badge {
+    width: 2.75%;
+    padding: 1px;
+    font-size: 0.5rem;
+    margin: -1rem 42% 1rem auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .NotificationList {
+    width: 85%;
+  }
+  .NotificationList_Badge {
+    width: 2.75%;
+    padding: 1px;
+    font-size: 0.5rem;
+    margin: -1rem 42% 1rem auto;
+  }
+  .NotificationList_Count {
+    font-size: .8rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .NotificationList {
+    width: 95%;
+  }
+  .NotificationList_Badge {
+    width: 2.8%;
+    padding: 1.2px;
+    font-size: 0.4rem;
+    margin: -1rem 42.5% 1rem auto;
+  }
+}

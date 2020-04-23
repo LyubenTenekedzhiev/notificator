@@ -47,7 +47,7 @@ function Notification({ title, expires, text, id, onFilterNotifications }) {
             {!expires ? (
               <div></div>
             ) : (
-              <h3>
+              <h3 className={classes.Notification_Time} >
                 {minutes} : {seconds < 10 ? `0${seconds}` : seconds}
               </h3>
             )}
@@ -62,11 +62,11 @@ function Notification({ title, expires, text, id, onFilterNotifications }) {
           ) : (
             <>
               {almostExpired ? (
-                <h3 style={{ color: "red" }}>
+                <h3 style={{ color: "red" }} className={classes.Notification_Time} >
                   {minutes} : {seconds < 10 ? `0${seconds}` : seconds}
                 </h3>
               ) : (
-                <h3>
+                <h3 className={classes.Notification_Time} >
                   {minutes} : {seconds < 10 ? `0${seconds}` : seconds}
                 </h3>
               )}
