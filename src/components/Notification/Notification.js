@@ -32,7 +32,7 @@ function Notification({ title, expires, text, id, onFilterNotifications }) {
           setMinutes(minutes - 1);
           setSeconds(59);
         }
-        if (hours > 0) {
+        if (hours > 0 && minutes === 0) {
           setHours(hours - 1);
           setMinutes(59);
           setSeconds(59);
