@@ -11,7 +11,7 @@ npm install
 
 ## Usage
 
-To get your server running, use on of the following commands:
+To get your server running, use one of the following commands:
 ```terminal
 yarn start 
               OR
