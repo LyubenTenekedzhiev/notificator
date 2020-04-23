@@ -1,0 +1,54 @@
+.NotificationList {
+  position: relative;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 10rem;
+  background-color: rgba(212, 239, 248, 0.226);
+}
+
+.NotificationList_Badge {
+  background-color: black;
+  width: 3.5%;
+  margin: -1.5rem 41% 1rem auto;
+  z-index: 3;
+  padding: 4px;
+  color: white;
+  border-radius: 50%;
+}
+
+.NotificationList_Logos {
+  display: flex;
+  flex-direction: column;
+}
+
+.NotificationList_LogoBlack {
+  width: 95%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.NotificationList_LogoWhite {
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.NotificationList_Logo {
+  width: 15%;
+  padding: 0.5rem;
+  margin: 0 auto;
+  align-self: center;
+}
+
+.NotificationList_Count {
+  position: absolute;
+  right: 0;
+  color: red;
+  padding: 0 1rem;
+  align-self: center;
+  font-size: 1.5rem;
+}
