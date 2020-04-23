@@ -13,7 +13,7 @@ const API = [
     type: "text",
     title: "Test notification",
     text: "Test text notification",
-    expires: 1500,
+    expires: 3610,
   },
   {
     id: 4322,
@@ -34,7 +34,7 @@ const API = [
     type: "text",
     title: "Test notification",
     text: "Test text notification",
-    expires: 4,
+    expires: 10,
   },
 ];
 
